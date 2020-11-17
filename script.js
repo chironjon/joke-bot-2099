@@ -1,7 +1,7 @@
 const button = document.getElementById('button');
 const audioElement = document.getElementById('audio');
 // api
-var token = config.API_KEY;
+var token = process.env.API_KEY;
 // VoiceRSS Javascript SDK
 
 // disable/enable joke button
